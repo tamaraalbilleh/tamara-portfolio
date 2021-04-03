@@ -3,7 +3,7 @@
 const { request, response } = require('express');
 const express = require ('express');
 const server = express ();
-const Port = 3000 ;
+const Port = process.env.Port || 3000 ;
 server.get ('/test',(request,response)=>{
     response.send ('Hello World')
 })
