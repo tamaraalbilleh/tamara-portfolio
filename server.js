@@ -7,20 +7,6 @@ server.get ('/test',(request,response)=>{
     response.send ('Hello World')
 })
 
-server.get ('/data',(request,response)=>{
-        let family = [
-            {
-                nName : 'tamara'
-            },
-            {
-                nName : 'Zaid'
-            },
-            {
-                nName : 'Saif'
-            }
-        ]
-    response.json (family);
-})
 server.use(express.static ('./public'));
 
 server.listen (Port , () => {
