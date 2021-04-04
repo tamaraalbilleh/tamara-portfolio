@@ -615,7 +615,7 @@ ul.icons {
                     #main > section.one {
                         background-color: #81918ea2;
                         background-image: url("../../images/banner.jpg");
-                        opacity: 0.95;
+                        opacity: 0.4;
                     }
         
                     #main > section.two {
@@ -785,11 +785,11 @@ ul.icons {
                 /* Header */
         
                     #header {
-                        -moz-backface-visibility: hidden;
-                        -webkit-backface-visibility: hidden;
-                        -ms-backface-visibility: hidden;
-                        backface-visibility: hidden;
-                        -moz-transform: translateX(-275px);
+                        -moz-backface-visibility:visible;
+                        -webkit-backface-visibility:visible;
+                        -ms-backface-visibility:visible;
+                        backface-visibility:visible;
+                        /* -moz-transform: translateX(-275px);
                         -webkit-transform: translateX(-275px);
                         -ms-transform: translateX(-275px);
                         transform: translateX(-275px);
@@ -797,11 +797,11 @@ ul.icons {
                         -webkit-transition: -webkit-transform 0.5s ease;
                         -ms-transition: -ms-transform 0.5s ease;
                         transition: transform 0.5s ease;
-                        -webkit-overflow-scrolling: touch;
+                        -webkit-overflow-scrolling: touch; */
                         display: block;
                         height: 100%;
                         left: 0;
-                        overflow-y: auto;
+                        /* overflow-y: auto; */
                         position: fixed;
                         top: 0;
                         width: 275px;
@@ -832,10 +832,10 @@ ul.icons {
                     }
         
                     #headerToggle {
-                        -moz-backface-visibility: hidden;
-                        -webkit-backface-visibility: hidden;
-                        -ms-backface-visibility: hidden;
-                        backface-visibility: hidden;
+                        -moz-backface-visibility:visible;
+                        -webkit-backface-visibility:visible;
+                        -ms-backface-visibility:visible;
+                        backface-visibility:visible;
                         -moz-transition: -moz-transform 0.5s ease;
                         -webkit-transition: -webkit-transform 0.5s ease;
                         -ms-transition: -ms-transform 0.5s ease;
@@ -937,7 +937,28 @@ ul.icons {
         /* Mobile */
         
             @media screen and (max-width: 736px) {
-        
+
+
+
+                #header {
+                    -moz-backface-visibility:visible;
+                    -webkit-backface-visibility:visible;
+                    -ms-backface-visibility:visible;
+                    backface-visibility:visible;
+                    -moz-transform: translateX(-275px);
+                    -webkit-transform: translateX(-275px);
+                    -ms-transform: translateX(-275px);
+                    transform: translateX(-275px);
+                    -moz-transition: -moz-transform 0.5s ease;
+                    -webkit-transition: -webkit-transform 0.5s ease;
+                    -ms-transition: -ms-transform 0.5s ease;
+                    transition: transform 0.5s ease;
+                    -webkit-overflow-scrolling: touch;
+                    display: block;
+                    height: 100%;
+                    left: 0;
+                    overflow-y: auto;
+                }
                 /* Basic */
         
                     body, input, textarea, select {
