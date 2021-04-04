@@ -1,5 +1,6 @@
 /* Basic */
-
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -10,11 +11,11 @@ html {
 
 body {
     background: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
-    color: #888;
+    color: #4d3e3e;
 }
 
     body.is-preload *, body.is-preload *:before, body.is-preload *:after {

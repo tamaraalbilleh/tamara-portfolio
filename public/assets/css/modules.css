@@ -250,7 +250,7 @@ ul.icons {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			box-shadow: 0 0 2px 1px #8ebebc;
+			box-shadow: 0 0 2px 1px #ffe9a2;
 			background: #fff;
 		}
 
@@ -544,7 +544,7 @@ ul.icons {
 #footer {
     margin-left: 375px;
     text-align: center;
-    background-color: #dce3e2;
+    background-color: #ffc38b;
     padding: 3em 0 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     font-size: 0.8em;
@@ -584,7 +584,7 @@ ul.icons {
                 }
         
                     #main > section.dark {
-                        color: #ddd;
+                        color: rgb(206, 205, 205);
                         color: rgba(255, 255, 255, 0.75);
                     }
         
@@ -613,20 +613,21 @@ ul.icons {
                     }
         
                     #main > section.one {
-                        background-color: #81918E;
+                        background-color: #81918ea2;
                         background-image: url("../../images/banner.jpg");
+                        opacity: 0.95;
                     }
         
                     #main > section.two {
-                        background-color: #f5fafa;
+                        background-color: #fff9e4;
                     }
         
                     #main > section.three {
-                        background-color: #ecf1f1;
+                        background-color: #fff3cd;
                     }
         
                     #main > section.four {
-                        background-color: #e8edec;
+                        background-color: #fff9e4;
                     }
         
         /* Wide */
@@ -989,3 +990,60 @@ ul.icons {
                         }
         
             }
+
+
+/* edits on css color scheme  */
+#nav ,.bottom , #header{
+    background-color: #4d3e3e;
+}
+#header .icons a {
+    color: #ffc38b;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
+}
+
+    #header .icons a:hover {
+        color: #fff;
+    }
+    #nav ul li a span:before {
+        color: #292121;
+    }
+
+    #nav ul li a.active span:before {
+        color: #ffc38b;
+    }
+
+.button , .col-12 input {
+    background-color: #292121;
+}
+
+input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #ffc38b;
+            color :#292121
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #ffc38b;
+		}
+p {
+    color : #4d3e3e
+}
+#logo p {
+    color:#ffc38b ;
+}#top header p  {
+    color: #fff3cd;
+    background-color: #29212127;
+}
+#top header h2 ,h1 , h2  {
+    font-family: 'Yatra One', cursive;
+}
